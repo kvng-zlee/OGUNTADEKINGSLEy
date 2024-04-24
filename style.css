@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.banner {
+    border-radius: 20px;
+    height: 200px;
+    margin: 0 auto;
+    width: 95%;
+    font-weight: 400;
+    overflow: auto;
+    background-color: blue;
+    color: black;
+    padding: 20px;
+}
+
+.bottom-nav {
+    background-color: rgb(41, 38, 38);
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.links {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.links li {
+    list-style-type: none;
+    width: 20%;
+}
+
+.links li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    color:  rgb(255, 252, 252);
+    align-items: center;
+}
+
+.links li a:hover {
+    transform: translateY(-5px);
+    color: #ffffff8e;
+    transition: 0.5s;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: White;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    justify-content: center;
+    height: 200px;
+    background-color: black;
+    width: 30%;
+    color: burlywood;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+.box.grey {
+    background-color: rgb(144, 146, 146);
+}
+
+.box-large-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-large {
+    padding: 30px;
+    width: 45%;
+    height: 250px;
+    color: white;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+}
+
+.box-large.right {
+    width: 50%;
+}
+
+.footer {
+    background-color:rgb(41, 38, 38);
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: left;
+    display: flex;
+    width: 96%;
+    text-align: center;
+    border-radius: 12px;
+}
